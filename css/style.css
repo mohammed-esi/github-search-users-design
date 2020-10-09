@@ -1,0 +1,223 @@
+/* Style of Home */
+body {
+  background: #333;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: #cd5c5c 3px solid;
+  opacity: 1;
+}
+
+.my-home-section {
+  background-color: #fff;
+  min-height: 700px;
+}
+
+.my-home-section img {
+  min-height: 689px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 702px;
+  margin-top: 58px;
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+i {
+  font-size: 30px;
+}
+
+.my-form-section {
+  background-color: #fff;
+  padding-top: 170px;
+  color: black;
+  padding-bottom: 100px;
+}
+
+.my-btn-section {
+  margin-top: 35px;
+  color: black;
+}
+
+.my-github {
+  font-size: 180px;
+  color: #cd5c5c;
+  margin-top: 0;
+}
+
+#home-section .fas,
+#create-section .fas {
+  color: #cd5c5c;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#explore-section .fas,
+#share-section .fas {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.create-head-section,
+.share-head-section {
+  background-color: #cd5c5c;
+}
+
+.my-btn {
+  background-color: #cd5c5c;
+  color: #fff;
+}
+
+.block-context-section {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* Style of Search */
+#body-search {
+  background: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.my-search {
+  margin-top: 150px;
+}
+
+.header-search {
+  min-height: 700px;
+}
+
+.header-img-search {
+  position: relative;
+  height: 400px;
+  margin-top: 60px;
+}
+
+.btn-search {
+  background-color: #cd5c5c;
+  color: white;
+}
+
+#team {
+  margin: 0;
+  padding: 0;
+}
+
+#team .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  background-color: white;
+  text-align: center;
+  border-radius: 40px;
+  padding-bottom: 15px;
+  min-height: 350px;
+}
+
+#team button {
+  border: none;
+  padding: 8px;
+  display: inline-block;
+  color: white;
+  background-color: #cd5c5c;
+  cursor: pointer;
+  width: 70%;
+  border-radius: 20px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+#team button:hover {
+  color: #333;
+}
+
+.all-center {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+}
+
+/*Style of About */
+#body-about {
+  background: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style of Profile */
+#body-profile {
+  background: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.profile .img-profile {
+  position: relative;
+  height: 300px;
+  margin-top: 20;
+}
+
+#user-profile .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  background-color: white;
+  border-radius: none;
+  text-align: center;
+  padding-bottom: 15px;
+  min-height: 350px;
+}
+
+.profile h1,
+h3 {
+  font-size: 20px;
+}
+
+.profile .card p {
+  margin-top: 20px;
+}
+
+.profile-static {
+  margin: 25px 40px 25px 15px;
+}
+
+.explore-bio-profile {
+  background: #333;
+  color: #fff;
+  margin: 20px 10px 0 10px;
+}
+
+.repos-user {
+  margin: 20px 10px 0 10px;
+}
+
+.repos-user .breadcrumb {
+  background-color: #cd5c5c;
+}
+
+/* Style of NotFound */
+#body-not-found {
+  background: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
